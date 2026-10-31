@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+outputs/*
+!outputs/.gitkeep
+private_data/*
+!private_data/README.md
+*.mat
+*.xls
+*.xlsx
+!examples/synthetic_MEFL_timecourses.xlsx
+.DS_Store

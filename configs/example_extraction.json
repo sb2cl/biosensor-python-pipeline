@@ -1,0 +1,30 @@
+{
+  "datasets": [
+    {
+      "origin": "SYNTHETIC_EXAMPLE_ONLY",
+      "experiment": "FdeR_test",
+      "system": "FdeR",
+      "series": "R3R3_Exp1_SYNTHETIC",
+      "dose_unit": "uM",
+      "signal_unit": "MEFL/cell",
+      "format": "long_timecourse",
+      "sheet": "FdeR_R3R3",
+      "header_row": 1,
+      "columns": {"time": "time_min", "dose": "dose_uM", "replicate": "replicate", "signal": "MEFL_per_cell"},
+      "window": {"kind": "sample_index_1based", "start": 72, "stop": 108}
+    },
+    {
+      "origin": "SYNTHETIC_EXAMPLE_ONLY",
+      "experiment": "pLux_test",
+      "system": "pLux",
+      "series": "B0032_High_SYNTHETIC",
+      "dose_unit": "nM",
+      "signal_unit": "MEFL/cell",
+      "format": "long_timecourse",
+      "sheet": "pLux_B0032",
+      "header_row": 1,
+      "columns": {"time": "time_min", "dose": "dose_nM", "replicate": "replicate", "signal": "MEFL_per_cell"},
+      "window": {"kind": "time_minutes", "start": 360, "stop": 480}
+    }
+  ]
+}

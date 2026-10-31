@@ -1,0 +1,6 @@
+{
+  "name": "BioSensor Python Pipeline",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
+  "postCreateCommand": "python -m pip install -r requirements.txt",
+  "customizations": {"vscode": {"extensions": ["ms-python.python", "ms-toolsai.jupyter"]}}
+}

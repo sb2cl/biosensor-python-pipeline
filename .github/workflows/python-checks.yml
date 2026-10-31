@@ -1,0 +1,21 @@
+name: Python data pipeline checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Run tests
+        run: python -m pytest tests -q
+      - name: Run synthetic Excel example
+        run: python -m scripts.extract_excel --workbook examples/synthetic_MEFL_timecourses.xlsx --config configs/example_extraction.json --out outputs/ci
+      - name: Smoke test three FdeR models (synthetic only)
+        run: python -m scripts.plot_fder_models --out outputs/ci_models

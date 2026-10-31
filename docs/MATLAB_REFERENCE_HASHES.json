@@ -1,0 +1,36 @@
+{
+  "status": "reference files independently archived; not included in public repository",
+  "sources": [
+    {
+      "reference": "additive_back_gate/logPosterior_primary_batchaware_meanwindow.m",
+      "sha256": "cb0453a317ae765fb75e473efb2d1d8958a71a571d0a91655832d67931039239",
+      "size_bytes": 8339
+    },
+    {
+      "reference": "additive_back_gate/build_final_batchaware_config.m",
+      "sha256": "b0b6955c0d5d67c15b501de916dd22b3b5f1f679ce8c53a76d00c6935f5f5c5e",
+      "size_bytes": 9299
+    },
+    {
+      "reference": "additive_back_gate/model_exp_biosensor.m",
+      "sha256": "b9fc687aa9c56b6735a4d86741163c6cfa9563478a38551f21fe42d7852ef090",
+      "size_bytes": 5631
+    },
+    {
+      "reference": "additive_back_gate/biosensorFeaturesDeterministic.m",
+      "sha256": "beae521a878b9eab5eae46a763bfadfbbc9cfdab87ca44974d638ecccb9aa04d",
+      "size_bytes": 7717
+    },
+    {
+      "reference": "additive_back_gate/initial_model/02_initial_model_equations.md",
+      "sha256": "495692410affd83c8ceb81017a579b7feb0f06937a0c9aa7e29be25b19dc5a4a",
+      "size_bytes": 2579
+    },
+    {
+      "reference": "model_exp_biosensor.txt (user-uploaded 2025 model)",
+      "sha256": "260a7ef67fc7d15c9dcbc096c8af078a1046072165abf2bcc6732820c353872d",
+      "size_bytes": 1452
+    }
+  ],
+  "note": "Hashes identify available reference sources. A code hash was not embedded in the original 2026 MATLAB posterior MAT."
+}

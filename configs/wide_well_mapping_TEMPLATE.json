@@ -1,0 +1,20 @@
+{
+  "datasets": [
+    {
+      "experiment": "REPLACE_WITH_EXPERIMENT_ID",
+      "system": "FdeR",
+      "series": "REPLACE_WITH_CONSTRUCT_NAME",
+      "dose_unit": "uM",
+      "signal_unit": "MEFL/cell",
+      "format": "wide_timecourse",
+      "sheet": "REPLACE_SHEET_NAME",
+      "header_row": 1,
+      "time_column": "REPLACE_TIME_COLUMN",
+      "wells": [
+        {"column": "REPLACE_WELL_A1_HEADER", "dose": 0, "replicate": "rep01"},
+        {"column": "REPLACE_WELL_A2_HEADER", "dose": 30, "replicate": "rep02"}
+      ],
+      "window": {"kind": "sample_index_1based", "start": 72, "stop": 108}
+    }
+  ]
+}

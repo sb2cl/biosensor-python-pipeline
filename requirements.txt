@@ -1,0 +1,12 @@
+# Binder 2026 requires recognized environment metadata. This file is used
+# by Binder, Codespaces and local use; PyBADS/PyVBMC are optional, later.
+numpy>=1.26,<3
+pandas>=2.1,<3
+scipy>=1.11,<2
+h5py>=3.10,<4
+openpyxl>=3.1,<4
+matplotlib>=3.8,<4
+jupyterlab>=4.2,<5
+ipykernel>=6.27,<8
+nbformat>=5.9,<6
+pytest>=8,<10
